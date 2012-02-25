@@ -1,4 +1,4 @@
-# YARD-Pygmentsrb
+# yard-pygmentsrb
 
 _This gems borrows code from nex3's [yard-pygments](https://github.com/nex3/yard-pygments)_
 
