@@ -2,7 +2,7 @@ require "yard-pygmentsrb/version"
 require 'pygments.rb'
 require 'yard'
 
-YARD::Templates::Engine.register_template_path File.expand_path("../templates", __FILE__)
+YARD::Templates::Engine.register_template_path File.expand_path("../../templates", __FILE__)
 
 module YARD::Templates::Helpers::HtmlSyntaxHighlightHelper
   Pygments.lexers.map {|k,l| l[:aliases] }.each do |aliases|
