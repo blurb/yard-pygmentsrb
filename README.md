@@ -16,7 +16,8 @@ gem install yard-pygmentsrb
 Write some code blocks in your documentation
 
 `document.md`
-```plain
+
+```
     !!!python
     def __call__(self, mom):
         pass
