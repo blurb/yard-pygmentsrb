@@ -29,8 +29,8 @@ Tell YARD to generate docs using the plugin
 yard --plugin pygmentsrb document.md
 ```
 
-_And if you want YARD to always use it, write the `--plugin pygmentsrb` to your
-.yardopts file_
+_And if you want YARD to always use it, write the `--plugin pygmentsrb` line to your
+`.yardopts` file_
 
 ## Requirements
 
