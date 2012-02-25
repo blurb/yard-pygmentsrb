@@ -15,8 +15,6 @@ gem install yard-pygmentsrb
 
 Write some code blocks in your documentation
 
-`document.md`
-
 ```
     !!!python
     def __call__(self, mom):
@@ -26,7 +24,7 @@ Write some code blocks in your documentation
 Tell YARD to generate docs using the plugin
 
 ```sh
-yard --plugin pygmentsrb document.md
+yard --plugin pygmentsrb
 ```
 
 _And if you want YARD to always use it, write the `--plugin pygmentsrb` line to your
