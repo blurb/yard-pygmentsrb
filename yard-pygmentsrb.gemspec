@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency "yard", "~> 0.7.5"
-  s.add_runtime_dependency "pygments.rb", "~> 0.2.4"
+  s.add_runtime_dependency "yard", "~> 0.8.3"
+  s.add_runtime_dependency "pygments.rb", "~> 0.3.2"
 end
