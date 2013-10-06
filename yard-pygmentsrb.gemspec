@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency "yard", "~> 0.8.3"
-  s.add_runtime_dependency "pygments.rb", "~> 0.3.2"
+  s.add_runtime_dependency "pygments.rb", "~> 0.5.2"
 end
